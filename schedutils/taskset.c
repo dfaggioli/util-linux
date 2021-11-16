@@ -44,6 +44,7 @@ struct taskset {
 	unsigned int	use_list:1,	/* use list rather than masks */
 			get_only:1;	/* print the mask, but not modify */
 	int		pippo;
+	int		pluto;
 };
 
 static void __attribute__((__noreturn__)) usage(void)
