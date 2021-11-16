@@ -43,6 +43,7 @@ struct taskset {
 	size_t		buflen;
 	unsigned int	use_list:1,	/* use list rather than masks */
 			get_only:1;	/* print the mask, but not modify */
+	int		pippo;
 };
 
 static void __attribute__((__noreturn__)) usage(void)
